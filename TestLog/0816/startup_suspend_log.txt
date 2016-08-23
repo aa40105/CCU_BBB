@@ -1,0 +1,21 @@
+[  164.213653] PM: Syncing filesystems ... done.
+[  164.659606] Freezing user space processes ... (elapsed 0.01 seconds) done.
+[  164.685211] PM: Preallocating image memory... done (allocated 79018 pages)
+[  174.217987] PM: Allocated 316072 kbytes in 9.52 seconds (33.20 MB/s)
+[  174.224670] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+[  174.260345] PM: freeze of devices complete after 14.739 msecs
+[  174.266754] PM: late freeze of devices complete after 0.366 msecs
+[  174.274566] PM: Creating hibernation image:
+[  174.371459] PM: Need to copy 15134 pages
+[  174.772827] PM: Hibernation image created (15134 pages copied)
+[  174.780944] PM: early thaw of devices complete after 0.335 msecs
+[  174.808654] PM: thaw of devices complete after 21.298 msecs
+[  174.824432] PM: Using 1 thread(s) for compression.
+[  174.824432] PM: Compressing and saving image data (15149 pages) ... done
+[  177.480621] PM: Wrote 60596 kbytes in 2.64 seconds (22.95 MB/s)
+[  177.495971] PM: S|
+[  177.533966] musb-hdrc musb-hdrc.1: remove, state 1
+[  177.539062] usb usb1: USB disconnect, device number 1
+[  177.544952] musb-hdrc musb-hdrc.1: USB bus 1 deregistered
+[  177.550933] Power down.
+[  177.553466] System will go to power_off state in approx. 1 second
