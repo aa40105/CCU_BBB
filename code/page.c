@@ -8,7 +8,12 @@ int main()
 {
 	struct sysinfo s_info;
 	unsigned long mem;
-	sysinfo(&s_info);
-	printf("numbers of page : %ld \n",((s_info.totalram - s_info.freeram) / 1024 / 4));
+	//sysinfo(&s_info);
+	while(1)
+	{
+		sysinfo(&s_info);
+		printf("numbers of page : %ld \n",((s_info.totalram - s_info.freeram) / 1024 / 4));
+		sleep(1);
+	}
 	return 0;
 }
